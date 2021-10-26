@@ -1,0 +1,40 @@
+  .header {
+      background: rgba(236, 236, 236, 0.829);
+      box-shadow: 0 8px 32px 0 rgba(233, 233, 233, 0.103);
+      backdrop-filter: blur(1px);
+      -webkit-backdrop-filter: blur(1px);
+      padding: .3rem;
+      position: fixed;
+      width: 100vw;
+
+      .nav {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          margin: 1rem 5rem;
+
+          .navLink {
+              text-decoration: none;
+              font-size: 1.1rem;
+              color: currentColor;
+          }
+
+          .navList {
+              display: flex;
+              list-style: none;
+              align-items: flex-end;
+
+              .navListItem {
+
+                  a {
+                      text-decoration: none;
+                      color: currentColor;
+                      font-size: 1rem;
+                      padding: 5rem;
+                      background: yellow;
+                      padding: 0 1rem;
+                  }
+              }
+          }
+      }
+  }

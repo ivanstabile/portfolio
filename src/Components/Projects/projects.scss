@@ -1,0 +1,53 @@
+.projects {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    h2 {
+        margin: 2rem;
+        font-size: 5.5rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        display: inline;
+    }
+
+    .projectsContainer {
+        margin: 2rem;
+        align-self: flex-start;
+
+        .projectsCards {
+            display: flex;
+            width: 28rem;
+            border-radius: 20px;
+
+            a {
+                text-decoration: none;
+                color: currentColor;
+
+                .imgContainer {
+                    height: 15rem;
+                    width: 29rem;
+                    margin: 0 1rem 0 0;
+                    background: green;
+
+                    img {
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover top;
+                    }
+                }
+
+                h3 {
+                    padding: 1rem 0;
+                    transition: text-decoration .2s;
+                }
+
+                h3:hover {
+                    text-decoration: underline;
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,51 @@
+.heroContainer {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 10rem;
+
+    .textContainer {
+        padding: 2rem;
+
+        h1 {
+            font-size: 4rem;
+            font-weight: lighter;
+
+            span {
+                background: yellow;
+                font-weight: bold;
+            }
+        }
+
+        p {
+            font-size: 1.5rem;
+            line-height: 2.5rem;
+        }
+
+        .iconSections {
+            padding: 1rem 0;
+            display: flex;
+            font-size: 1.5rem;
+
+            a {
+                color: currentColor;
+
+                .github {
+                    margin-left: 1rem;
+                }
+            }
+
+        }
+    }
+
+    .imgContainer {
+        height: 320px;
+        width: 320px;
+
+        img {
+            border-radius: 20px;
+            height: 100%;
+        }
+    }
+}
